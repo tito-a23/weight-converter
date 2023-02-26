@@ -1,0 +1,8 @@
+weight = float(input("Enter your weight: "))
+unit = input("(k)g or (l)bs?: ")
+if unit.upper() == "K":
+    print("Weight in lbs: " + str(weight * 2.2046) + ". Thank you.")
+elif unit.upper() == "L":
+    print("Weight in kg: " + str(weight * 0.453) + ". Thank you.")
+else:
+    print("Sorry. Invalid input")
